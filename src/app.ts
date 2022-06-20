@@ -18,8 +18,7 @@ const list = new ListTemplate(ul);
 form.addEventListener("submit", (e: Event) => {
   e.preventDefault();
 
-  let values: [string, string, number];
-  values = [tofrom.value, details.value, amount.valueAsNumber];
+  const values: [string, string, number] = [tofrom.value, details.value, amount.valueAsNumber];
 
   let doc: HasFormatter;
   if (type.value === "invoice") {
