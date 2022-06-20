@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     /* Language and Environment */
-    "target": "es2016",
+    "target": "ES6",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
 
     /* Modules */
-    "module": "commonjs",
+    "module": "ES2015",
     "rootDir": "./src",
-    "resolveJsonModule": true,
+    // "resolveJsonModule": true,
 
     /* Emit */
     "outDir": "./public",
